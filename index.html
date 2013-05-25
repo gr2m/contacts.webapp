@@ -67,7 +67,7 @@
 				</menu>
 
 				<menu type="toolbar" class="contact-detail">
-				    <button data-action="add-back">×</button>
+				    <button data-action="back">×</button>
 				</menu>
 
 				<h1>Faces</h1>
@@ -137,6 +137,53 @@
 					Twitter: <var name="twitter"></var><br>
 					Info: <var name="info"></var><br>
 				</p>
+
+				<p>
+					<button data-action="edit-contact" data-id="">edit</button>
+				</p>
+
+				<h3>History</h3>
+
+				<textarea></textarea>
+
+						<form role="dialog" data-type="edit" class="contact-edit" data-model="contact">
+						  <section>
+						    <header>
+						      
+						      <menu type="toolbar">
+						      	<button data-action="cancel">×</button>
+						      </menu>
+						      <h1>Edit</h1>
+						    </header>
+						  </section>
+
+						  <menu>
+				  		  <fieldset>
+				  	      <legend>Info</legend>
+				  	      <section>
+				  	      	<p>
+				  	          <input name="name" type="text" placeholder="Name" required="">
+				  	        </p>
+				  	        <p>
+				  	          <input name="email" type="email" placeholder="Email">
+				  	        </p>
+				  	        <p>
+				  	          <input name="phone" type="tel" placeholder="Phone number">
+				  	        </p>
+				  	        <p>
+				  	          <input name="twitter" type="text" placeholder="Twitter">
+				  	        </p>
+				  	        <p>
+				  	          <textarea name="info" placeholder="custom" style="height: 6em"></textarea>
+				  	        </p>
+				  	      </section>
+				  	    </fieldset>
+
+				  	    <div class="actions">
+							    <button>save</button>
+							  </div>
+						  </menu>
+						</form>
 			</div><!-- /.reminders -->
 
 			<div role="main" class="reminders">
