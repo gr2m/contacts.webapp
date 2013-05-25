@@ -1,0 +1,16 @@
+{
+	"version" : "1.0a",
+	"name": "LoadShedding",
+	"description": "LoadShedding Details for Nepal : Know when the light's off",
+	"appcache_path" : "/losh/manifest.appcache",
+	"launch_path": "/losh/index.html",
+	"icons": {
+		"128": "/losh/img/icon-128.png",
+		"60": "/losh/img/icon-60.png"
+	},
+	"developer": {
+		"name": "Avinash Kundaliya",
+		"url": "http://avinash.com.np"
+	},
+	"default_locale": "en"
+}
